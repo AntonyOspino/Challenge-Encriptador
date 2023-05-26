@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imgs/Frame 6.png" type="icono/png">
+    <title>Challenge One Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./imgs/Logo.png" alt="Logo">
+    </header>
+    <section class="main">
+        <div class="entrada">
+            <textarea id="textoEntrada" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="advertencia">
+                <img src="./imgs/bi_exclamation-circle-fill.png" alt="">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="boton" id="encriptar">Encriptar</button>
+                <button class="boton" id="desencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="salida">
+            <p id="textoSalida"></p>
+            <img src="./imgs/Muñeco.png" alt="Muñeco" id="mi-imagen">
+            <p class="p1" id="parrafo1">Ningun mensaje fue encontrado</p>
+            <p class="p2" id="parrafo2">Ingresa el texto que desees encriptar o desencriptar</p>
+            <div class="boton-container">
+                <button class="btnCopiar" id="copiar">Copiar</button>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
